@@ -1,0 +1,68 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Gowin/ACG525_Pendulum_Control
+T_opt
+!s110 1793178483
+V1N;M`84m_hbKn[:M>MYW;2
+04 15 4 work tb_balance_only fast 0
+=1-b025aa695095-6ae1bb73-2c4-52ec
+o-quiet -auto_acc_if_foreign -work work_balance_only +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6d;65
+R0
+vpendulum_controller
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z3 !s110 1793262595
+!i10b 1
+!s100 2>UYQ1Ccjof_Gm6B0bZcb3
+IWe6@>@cHl_5@i4:<nA:7?0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 pendulum_controller_v_unit
+S1
+R0
+w1793178118
+8D:/Gowin/ACG525_Pendulum_Control/releases/20261028_170500_BalanceOnly_NoAutoswing/src/pendulum_controller.v
+FD:/Gowin/ACG525_Pendulum_Control/releases/20261028_170500_BalanceOnly_NoAutoswing/src/pendulum_controller.v
+L0 4
+Z5 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z6 !s108 1793262595.000000
+!s107 D:/Gowin/ACG525_Pendulum_Control/tests/tb_balance_only.sv|D:/Gowin/ACG525_Pendulum_Control/releases/20261028_170500_BalanceOnly_NoAutoswing/src/pendulum_controller.v|
+Z7 !s90 -modelsimini|D:/Gowin/ACG525_Pendulum_Control/modelsim.ini|-work|work_balance_only|-sv|D:/Gowin/ACG525_Pendulum_Control/releases/20261028_170500_BalanceOnly_NoAutoswing/src/pendulum_controller.v|D:/Gowin/ACG525_Pendulum_Control/tests/tb_balance_only.sv|
+!i113 0
+Z8 o-work work_balance_only -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb_balance_only
+R2
+R3
+!i10b 1
+!s100 97AOKSn`<bWaj9l14fEUV3
+I<Qc@2U]^AXFOdG:LDLnfd2
+R4
+!s105 tb_balance_only_sv_unit
+S1
+R0
+w1793176697
+8D:/Gowin/ACG525_Pendulum_Control/tests/tb_balance_only.sv
+FD:/Gowin/ACG525_Pendulum_Control/tests/tb_balance_only.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+Z9 !s107 D:/Gowin/ACG525_Pendulum_Control/tests/tb_balance_only.sv|D:/Gowin/ACG525_Pendulum_Control/releases/20261028_170500_BalanceOnly_NoAutoswing/src/pendulum_controller.v|
+R7
+!i113 0
+R8
+R1

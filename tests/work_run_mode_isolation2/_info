@@ -1,0 +1,307 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Gowin/ACG525_Pendulum_Control
+T_opt
+!s110 1793439026
+VW`ZOg<1_Hje[hR@U`WGN23
+04 21 4 work tb_run_mode_isolation fast 0
+=1-c8154ec374f9-6ae5b532-43-77c0
+o-quiet -auto_acc_if_foreign -work work_run_mode_isolation2 +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6d;65
+vacg525_pendulum_top
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z3 !s110 1793439025
+!i10b 1
+!s100 ]PJj4Y3I9JGIZL6V_Pde^3
+I@e`eNiF?l_fHh^iWYBHSB0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 acg525_pendulum_top_v_unit
+S1
+R0
+w1793438992
+8src/acg525_pendulum_top.v
+Fsrc/acg525_pendulum_top.v
+L0 8
+Z5 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z6 !s108 1793439025.000000
+Z7 !s107 tests/tb_run_mode_isolation.sv|src/uart_telemetry_tx.v|src/quadrature_encoder.v|src/position_trajectory.v|src/pendulum_pd.v|src/pendulum_controller.v|src/one_euro_filter_signed.v|src/oled_ssd1306.v|src/motor_pwm_dual.v|src/mcp3201_spi.v|src/button_filter.v|src/acg525_pendulum_top.v|
+Z8 !s90 -sv|-work|work_run_mode_isolation2|src/acg525_pendulum_top.v|src/button_filter.v|src/mcp3201_spi.v|src/motor_pwm_dual.v|src/oled_ssd1306.v|src/one_euro_filter_signed.v|src/pendulum_controller.v|src/pendulum_pd.v|src/position_trajectory.v|src/quadrature_encoder.v|src/uart_telemetry_tx.v|tests/tb_run_mode_isolation.sv|
+!i113 0
+Z9 o-sv -work work_run_mode_isolation2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vbutton_filter
+R2
+R3
+!i10b 1
+!s100 oY0UYD9MJ^NKoQ24R4Sc;1
+IF]aX@O<><So;PfVhHPLRZ1
+R4
+!s105 button_filter_v_unit
+S1
+R0
+Z10 w1792315247
+8src/button_filter.v
+Fsrc/button_filter.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vmcp3201_spi
+R2
+R3
+!i10b 1
+!s100 ojZ:@boLKW24h:hObJ8o[0
+IEWEoWj91N_;z;4m6aM[RK3
+R4
+!s105 mcp3201_spi_v_unit
+S1
+R0
+R10
+8src/mcp3201_spi.v
+Fsrc/mcp3201_spi.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vmotor_pwm_dual
+R2
+R3
+!i10b 1
+!s100 fg:IagBZL>Dbg^=4FmTcm2
+IbaVSb8Y:LaN0EVlmMi?cl3
+R4
+!s105 motor_pwm_dual_v_unit
+S1
+R0
+R10
+8src/motor_pwm_dual.v
+Fsrc/motor_pwm_dual.v
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+voled_ssd1306
+R2
+R3
+!i10b 1
+!s100 =o<ZngO5^;S[h9:LAMhg00
+IzPBile;`Cg[;I[A>Xl0MB1
+R4
+!s105 oled_ssd1306_v_unit
+S1
+R0
+Z11 w1792315346
+8src/oled_ssd1306.v
+Fsrc/oled_ssd1306.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vone_euro_filter_signed
+R2
+R3
+!i10b 1
+!s100 66U[o1ko<<X6jS3WT2L4]0
+IBEHJBR[0BMF5F1oRVXf`O3
+R4
+!s105 one_euro_filter_signed_v_unit
+S1
+R0
+w1792760739
+8src/one_euro_filter_signed.v
+Fsrc/one_euro_filter_signed.v
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vpendulum_controller
+R2
+R3
+!i10b 1
+!s100 C0Zm]Ri2AC^?KU1?E>NQE0
+IW6=gW0ZKZ<>V:g1QSE9Mn3
+R4
+!s105 pendulum_controller_v_unit
+S1
+R0
+w1793438686
+8src/pendulum_controller.v
+Fsrc/pendulum_controller.v
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vpendulum_pd
+R2
+R3
+!i10b 1
+!s100 V47W4`::YcTE>EcNPgkH>3
+IjV`lmP4i`TPTe9j6Xd:fj1
+R4
+!s105 pendulum_pd_v_unit
+S1
+R0
+R11
+8src/pendulum_pd.v
+Fsrc/pendulum_pd.v
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vposition_trajectory
+R2
+R3
+!i10b 1
+!s100 e9>JV]GgILGo6ePN=GB4?2
+IAbcUQ<95?Qn28GmXXXbYD2
+R4
+!s105 position_trajectory_v_unit
+S1
+R0
+w1793427549
+8src/position_trajectory.v
+Fsrc/position_trajectory.v
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vquadrature_encoder
+R2
+R3
+!i10b 1
+!s100 7oY6m14Ao9YdD7V@Zfj<E3
+I_DMn7]nY7ZW>^91lG_fn42
+R4
+!s105 quadrature_encoder_v_unit
+S1
+R0
+R10
+8src/quadrature_encoder.v
+Fsrc/quadrature_encoder.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vtb_run_mode_isolation
+R2
+R3
+!i10b 1
+!s100 7iG=ezMD>aWOj8R4^zV4l0
+I163]cVz_Ao]6QSd@5RPBK2
+R4
+!s105 tb_run_mode_isolation_sv_unit
+S1
+R0
+w1793438955
+8tests/tb_run_mode_isolation.sv
+Ftests/tb_run_mode_isolation.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vuart_telemetry_tx
+R2
+R3
+!i10b 1
+!s100 E?n5J]o:Tmoin3DF=5PWU2
+I9^3J3I:6T`o3e9YhcbAYh2
+R4
+!s105 uart_telemetry_tx_v_unit
+S1
+R0
+w1793148146
+8src/uart_telemetry_tx.v
+Fsrc/uart_telemetry_tx.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

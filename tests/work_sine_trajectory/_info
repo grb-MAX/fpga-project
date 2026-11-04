@@ -1,0 +1,331 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Gowin/ACG525_Pendulum_Control
+T_opt
+Z1 !s110 1793438760
+VY;HVZSIOLL_HJ6>:1FiGf2
+04 26 4 work tb_sine_trajectory_current fast 0
+=1-c8154ec374f9-6ae5b428-2b8-7ac0
+o-quiet -auto_acc_if_foreign -work work_sine_trajectory +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;10.6d;65
+vacg525_pendulum_top
+Z3 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R1
+!i10b 1
+!s100 T8WH1gXE]zeeY8GPODCR30
+IWz9_KPzI:3U934igm^;7L3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 acg525_pendulum_top_v_unit
+S1
+R0
+w1793438701
+8D:/Gowin/ACG525_Pendulum_Control/src/acg525_pendulum_top.v
+FD:/Gowin/ACG525_Pendulum_Control/src/acg525_pendulum_top.v
+L0 8
+Z5 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z6 !s108 1793438760.000000
+Z7 !s107 D:/Gowin/ACG525_Pendulum_Control/tests/tb_sine_trajectory_current.sv|D:/Gowin/ACG525_Pendulum_Control/src/uart_telemetry_tx.v|D:/Gowin/ACG525_Pendulum_Control/src/quadrature_encoder.v|D:/Gowin/ACG525_Pendulum_Control/src/position_trajectory.v|D:/Gowin/ACG525_Pendulum_Control/src/pendulum_pd.v|D:/Gowin/ACG525_Pendulum_Control/src/pendulum_controller.v|D:/Gowin/ACG525_Pendulum_Control/src/one_euro_filter_signed.v|D:/Gowin/ACG525_Pendulum_Control/src/oled_ssd1306.v|D:/Gowin/ACG525_Pendulum_Control/src/motor_pwm_dual.v|D:/Gowin/ACG525_Pendulum_Control/src/mcp3201_spi.v|D:/Gowin/ACG525_Pendulum_Control/src/button_filter.v|D:/Gowin/ACG525_Pendulum_Control/src/acg525_pendulum_top.v|
+Z8 !s90 -modelsimini|D:/Gowin/ACG525_Pendulum_Control/modelsim.ini|-sv|-work|work_sine_trajectory|D:/Gowin/ACG525_Pendulum_Control/src/acg525_pendulum_top.v|D:/Gowin/ACG525_Pendulum_Control/src/button_filter.v|D:/Gowin/ACG525_Pendulum_Control/src/mcp3201_spi.v|D:/Gowin/ACG525_Pendulum_Control/src/motor_pwm_dual.v|D:/Gowin/ACG525_Pendulum_Control/src/oled_ssd1306.v|D:/Gowin/ACG525_Pendulum_Control/src/one_euro_filter_signed.v|D:/Gowin/ACG525_Pendulum_Control/src/pendulum_controller.v|D:/Gowin/ACG525_Pendulum_Control/src/pendulum_pd.v|D:/Gowin/ACG525_Pendulum_Control/src/position_trajectory.v|D:/Gowin/ACG525_Pendulum_Control/src/quadrature_encoder.v|D:/Gowin/ACG525_Pendulum_Control/src/uart_telemetry_tx.v|D:/Gowin/ACG525_Pendulum_Control/tests/tb_sine_trajectory_current.sv|
+!i113 0
+Z9 o-sv -work work_sine_trajectory -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vbutton_filter
+R3
+R1
+!i10b 1
+!s100 oY0UYD9MJ^NKoQ24R4Sc;1
+IOTF9NTU3=OG?Sgo0D4li22
+R4
+!s105 button_filter_v_unit
+S1
+R0
+Z10 w1792315247
+8D:/Gowin/ACG525_Pendulum_Control/src/button_filter.v
+FD:/Gowin/ACG525_Pendulum_Control/src/button_filter.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vmcp3201_spi
+R3
+R1
+!i10b 1
+!s100 ojZ:@boLKW24h:hObJ8o[0
+ImK@AefP_I?M4L5AKEWVLG2
+R4
+!s105 mcp3201_spi_v_unit
+S1
+R0
+R10
+8D:/Gowin/ACG525_Pendulum_Control/src/mcp3201_spi.v
+FD:/Gowin/ACG525_Pendulum_Control/src/mcp3201_spi.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vmotor_pwm_dual
+R3
+R1
+!i10b 1
+!s100 fg:IagBZL>Dbg^=4FmTcm2
+IHC`Y[MWXNNgRY7b5h;25e3
+R4
+!s105 motor_pwm_dual_v_unit
+S1
+R0
+R10
+8D:/Gowin/ACG525_Pendulum_Control/src/motor_pwm_dual.v
+FD:/Gowin/ACG525_Pendulum_Control/src/motor_pwm_dual.v
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+voled_ssd1306
+R3
+R1
+!i10b 1
+!s100 =o<ZngO5^;S[h9:LAMhg00
+I4;4T_<P6Z_nR4;4h4ZoWa3
+R4
+!s105 oled_ssd1306_v_unit
+S1
+R0
+Z11 w1792315346
+8D:/Gowin/ACG525_Pendulum_Control/src/oled_ssd1306.v
+FD:/Gowin/ACG525_Pendulum_Control/src/oled_ssd1306.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vone_euro_filter_signed
+R3
+R1
+!i10b 1
+!s100 66U[o1ko<<X6jS3WT2L4]0
+I7[dZeX^eWnWL22iSBgFSj3
+R4
+!s105 one_euro_filter_signed_v_unit
+S1
+R0
+w1792760739
+8D:/Gowin/ACG525_Pendulum_Control/src/one_euro_filter_signed.v
+FD:/Gowin/ACG525_Pendulum_Control/src/one_euro_filter_signed.v
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vpendulum_controller
+R3
+R1
+!i10b 1
+!s100 C0Zm]Ri2AC^?KU1?E>NQE0
+I7lNod<M9Kz9`gFX<fEj7i2
+R4
+!s105 pendulum_controller_v_unit
+S1
+R0
+w1793438686
+8D:/Gowin/ACG525_Pendulum_Control/src/pendulum_controller.v
+FD:/Gowin/ACG525_Pendulum_Control/src/pendulum_controller.v
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vpendulum_pd
+R3
+R1
+!i10b 1
+!s100 V47W4`::YcTE>EcNPgkH>3
+I6ElM3l>:E]g0F`]KOD]9f3
+R4
+!s105 pendulum_pd_v_unit
+S1
+R0
+R11
+8D:/Gowin/ACG525_Pendulum_Control/src/pendulum_pd.v
+FD:/Gowin/ACG525_Pendulum_Control/src/pendulum_pd.v
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vposition_trajectory
+R3
+R1
+!i10b 1
+!s100 e9>JV]GgILGo6ePN=GB4?2
+ILA@8OJI`k2D]=X`mRAl^`3
+R4
+!s105 position_trajectory_v_unit
+S1
+R0
+w1793427549
+8D:/Gowin/ACG525_Pendulum_Control/src/position_trajectory.v
+FD:/Gowin/ACG525_Pendulum_Control/src/position_trajectory.v
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vquadrature_encoder
+R3
+R1
+!i10b 1
+!s100 7oY6m14Ao9YdD7V@Zfj<E3
+I`gk[flbW13G6l]3[_mVbh0
+R4
+!s105 quadrature_encoder_v_unit
+S1
+R0
+R10
+8D:/Gowin/ACG525_Pendulum_Control/src/quadrature_encoder.v
+FD:/Gowin/ACG525_Pendulum_Control/src/quadrature_encoder.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vtb_sine_trajectory
+R3
+!s110 1793438396
+!i10b 1
+!s100 EY0Hh]P=U<ojXbROJ]l3d1
+I5PP4lTOCP8M8YiG<iJI_72
+R4
+!s105 tb_sine_trajectory_sv_unit
+S1
+R0
+w1793280434
+8D:/Gowin/ACG525_Pendulum_Control/tests/tb_sine_trajectory.sv
+FD:/Gowin/ACG525_Pendulum_Control/tests/tb_sine_trajectory.sv
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1793438396.000000
+!s107 D:/Gowin/ACG525_Pendulum_Control/tests/tb_sine_trajectory.sv|D:/Gowin/ACG525_Pendulum_Control/src/uart_telemetry_tx.v|D:/Gowin/ACG525_Pendulum_Control/src/quadrature_encoder.v|D:/Gowin/ACG525_Pendulum_Control/src/position_trajectory.v|D:/Gowin/ACG525_Pendulum_Control/src/pendulum_pd.v|D:/Gowin/ACG525_Pendulum_Control/src/pendulum_controller.v|D:/Gowin/ACG525_Pendulum_Control/src/one_euro_filter_signed.v|D:/Gowin/ACG525_Pendulum_Control/src/oled_ssd1306.v|D:/Gowin/ACG525_Pendulum_Control/src/motor_pwm_dual.v|D:/Gowin/ACG525_Pendulum_Control/src/mcp3201_spi.v|D:/Gowin/ACG525_Pendulum_Control/src/button_filter.v|D:/Gowin/ACG525_Pendulum_Control/src/acg525_pendulum_top.v|
+!s90 -modelsimini|D:/Gowin/ACG525_Pendulum_Control/modelsim.ini|-sv|-work|work_sine_trajectory|D:/Gowin/ACG525_Pendulum_Control/src/acg525_pendulum_top.v|D:/Gowin/ACG525_Pendulum_Control/src/button_filter.v|D:/Gowin/ACG525_Pendulum_Control/src/mcp3201_spi.v|D:/Gowin/ACG525_Pendulum_Control/src/motor_pwm_dual.v|D:/Gowin/ACG525_Pendulum_Control/src/oled_ssd1306.v|D:/Gowin/ACG525_Pendulum_Control/src/one_euro_filter_signed.v|D:/Gowin/ACG525_Pendulum_Control/src/pendulum_controller.v|D:/Gowin/ACG525_Pendulum_Control/src/pendulum_pd.v|D:/Gowin/ACG525_Pendulum_Control/src/position_trajectory.v|D:/Gowin/ACG525_Pendulum_Control/src/quadrature_encoder.v|D:/Gowin/ACG525_Pendulum_Control/src/uart_telemetry_tx.v|D:/Gowin/ACG525_Pendulum_Control/tests/tb_sine_trajectory.sv|
+!i113 0
+R9
+R2
+vtb_sine_trajectory_current
+R3
+R1
+!i10b 1
+!s100 ^zj7[;=K;g_EMoiXUF[ZY3
+IJ@DUChj94afQ13?JjC34^3
+R4
+!s105 tb_sine_trajectory_current_sv_unit
+S1
+R0
+w1793438579
+8D:/Gowin/ACG525_Pendulum_Control/tests/tb_sine_trajectory_current.sv
+FD:/Gowin/ACG525_Pendulum_Control/tests/tb_sine_trajectory_current.sv
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vuart_telemetry_tx
+R3
+R1
+!i10b 1
+!s100 E?n5J]o:Tmoin3DF=5PWU2
+IdCHSX]1@VnbHh?cim9g2D2
+R4
+!s105 uart_telemetry_tx_v_unit
+S1
+R0
+w1793148146
+8D:/Gowin/ACG525_Pendulum_Control/src/uart_telemetry_tx.v
+FD:/Gowin/ACG525_Pendulum_Control/src/uart_telemetry_tx.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2

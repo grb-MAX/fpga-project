@@ -1,0 +1,77 @@
+// ACG525 开发板引脚约束，器件型号 GW5A-LV25UG324ES。
+// IO_LOC 指定封装管脚；IO_PORT 配置电平标准、上下拉及驱动强度，均沿用当前工程。
+// P6 为开发板左侧的 2x20 通用输入输出扩展排针。
+
+// 50 MHz 板载系统时钟输入。
+IO_LOC "clk_50m" T9;
+IO_PORT "clk_50m" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+// 板载 KEY0 模式选择键，内部上拉，低电平按下。
+IO_LOC "key0_n" B16;
+IO_PORT "key0_n" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+// 板载 KEY1 角度校零键，内部上拉，低电平按下。
+IO_LOC "key1_n" A15;
+IO_PORT "key1_n" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+// 板载 KEY2 全局复位键，内部上拉，低电平有效。
+IO_LOC "key2_n" C15;
+IO_PORT "key2_n" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// P6 扩展排针上的外接控制按键。
+// 外接目标位置减键，内部上拉，低电平按下。
+IO_LOC "target_dec_n" F14;
+IO_PORT "target_dec_n" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+// 外接目标位置加键，内部上拉，低电平按下。
+IO_LOC "target_inc_n" F17;
+IO_PORT "target_inc_n" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+// 外接启动/暂停键，内部上拉，低电平按下。
+IO_LOC "mode_start_n" F18;
+IO_PORT "mode_start_n" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// MCP3201 串行数据输入，使用内部上拉。
+IO_LOC "adc_dout" G14;
+IO_PORT "adc_dout" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+// MCP3201 低有效片选输出，驱动强度配置为 8 mA。
+IO_LOC "adc_cs_n" C17;
+IO_PORT "adc_cs_n" IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=NONE;
+// MCP3201 串行时钟输出，驱动强度配置为 8 mA。
+IO_LOC "adc_sclk" C18;
+IO_PORT "adc_sclk" IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=NONE;
+
+// AT8236 IN1 驱动控制输出，方向与 PWM 波形由驱动模块决定。
+IO_LOC "motor_in1" D17;
+IO_PORT "motor_in1" IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=NONE;
+// AT8236 IN2 驱动控制输出，与 IN1 配合驱动电机。
+IO_LOC "motor_in2" D18;
+IO_PORT "motor_in2" IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=NONE;
+
+// 编码器 A 相输入，使用内部上拉。
+IO_LOC "encoder_a" G16;
+IO_PORT "encoder_a" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+// 编码器 B 相输入，使用内部上拉。
+IO_LOC "encoder_b" G18;
+IO_PORT "encoder_b" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// OLED 开漏 I2C 时钟引脚，此处配置内部上拉。
+IO_LOC "oled_scl" R3;
+IO_PORT "oled_scl" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+// OLED 开漏 I2C 数据引脚，此处配置内部上拉。
+IO_LOC "oled_sda" T3;
+IO_PORT "oled_sda" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+
+// 板载串口排针：连接 USB 转串口适配器或 CH9102F，使用 3.3 V TTL 电平。
+// 3.3 V TTL 串口发送输出，空闲状态为高电平。
+IO_LOC "uart_tx" V8;
+IO_PORT "uart_tx" IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=UP;
+
+// 心跳状态输出，由主时钟计数器分频产生。
+IO_LOC "led[0]" D14;
+IO_PORT "led[0]" IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=NONE;
+// ADC 采样活动状态输出。
+IO_LOC "led[1]" C14;
+IO_PORT "led[1]" IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=NONE;
+// 电机驱动使能状态输出。
+IO_LOC "led[2]" B9;
+IO_PORT "led[2]" IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=NONE;
+// 编码器速度非零时翻转的活动状态输出。
+IO_LOC "led[3]" A9;
+IO_PORT "led[3]" IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=NONE;

@@ -1,0 +1,25 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25UG324ES">gw5a25a-006</Device>
+    <FileList>
+        <File path="src/Pendulum_swingup.v" type="file.verilog" enable="1"/>
+        <File path="src/acg525_pendulum_top.v" type="file.verilog" enable="1"/>
+        <File path="src/button_filter.v" type="file.verilog" enable="1"/>
+        <File path="src/mcp3201_spi.v" type="file.verilog" enable="1"/>
+        <File path="src/motor_pwm_dual.v" type="file.verilog" enable="1"/>
+        <File path="src/oled_ssd1306.v" type="file.verilog" enable="1"/>
+        <File path="src/one_euro_filter_signed.v" type="file.verilog" enable="1"/>
+        <File path="src/pendulum_controller.v" type="file.verilog" enable="1"/>
+        <File path="src/pendulum_controller_run4.v" type="file.verilog" enable="1"/>
+        <File path="src/pendulum_pd.v" type="file.verilog" enable="1"/>
+        <File path="src/position_trajectory.v" type="file.verilog" enable="1"/>
+        <File path="src/quadrature_encoder.v" type="file.verilog" enable="1"/>
+        <File path="src/run4_trajectory_generator.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_telemetry_tx.v" type="file.verilog" enable="1"/>
+        <File path="constraints/acg525_pendulum.cst" type="file.cst" enable="1"/>
+        <File path="constraints/acg525_pendulum.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

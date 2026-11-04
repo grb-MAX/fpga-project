@@ -1,0 +1,298 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full
+vacg525_pendulum_top
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1793418155
+!i10b 1
+!s100 VmGEeY>CbGGRD`oUB5Xj53
+IXD;no^PUYj_HZQSU7PSM31
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 acg525_pendulum_top_v_unit
+S1
+R0
+w1793417062
+8D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/acg525_pendulum_top.v
+FD:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/acg525_pendulum_top.v
+L0 2
+Z4 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z5 !s108 1793418155.000000
+!s107 D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/tests/tb_sine_trajectory.sv|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/uart_telemetry_tx.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/quadrature_encoder.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/position_trajectory.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/pendulum_pd.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/pendulum_controller.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/one_euro_filter_signed.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/oled_ssd1306.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/motor_pwm_dual.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/mcp3201_spi.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/button_filter.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/acg525_pendulum_top.v|
+Z6 !s90 -modelsimini|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/modelsim.ini|-sv|-work|work_sine_trajectory|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/acg525_pendulum_top.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/button_filter.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/mcp3201_spi.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/motor_pwm_dual.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/oled_ssd1306.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/one_euro_filter_signed.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/pendulum_controller.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/pendulum_pd.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/position_trajectory.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/quadrature_encoder.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/uart_telemetry_tx.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/tests/tb_sine_trajectory.sv|
+!i113 0
+Z7 o-sv -work work_sine_trajectory -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0
+vbutton_filter
+R1
+R2
+!i10b 1
+!s100 oY0UYD9MJ^NKoQ24R4Sc;1
+IGXF?[@HzBcZ=NLcM6PbAP1
+R3
+!s105 button_filter_v_unit
+S1
+R0
+Z9 w1792315247
+8D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/button_filter.v
+FD:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/button_filter.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+Z10 !s107 D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/tests/tb_sine_trajectory.sv|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/uart_telemetry_tx.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/quadrature_encoder.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/position_trajectory.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/pendulum_pd.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/pendulum_controller.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/one_euro_filter_signed.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/oled_ssd1306.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/motor_pwm_dual.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/mcp3201_spi.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/button_filter.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/acg525_pendulum_top.v|
+R6
+!i113 0
+R7
+R8
+vmcp3201_spi
+R1
+R2
+!i10b 1
+!s100 ojZ:@boLKW24h:hObJ8o[0
+I]l21I1?<NYWNCcP=YY0jZ3
+R3
+!s105 mcp3201_spi_v_unit
+S1
+R0
+R9
+8D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/mcp3201_spi.v
+FD:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/mcp3201_spi.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 0
+R7
+R8
+vmotor_pwm_dual
+R1
+R2
+!i10b 1
+!s100 fg:IagBZL>Dbg^=4FmTcm2
+Im1l]59>iI3A8Be6iS8I5L2
+R3
+!s105 motor_pwm_dual_v_unit
+S1
+R0
+R9
+8D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/motor_pwm_dual.v
+FD:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/motor_pwm_dual.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 0
+R7
+R8
+voled_ssd1306
+R1
+R2
+!i10b 1
+!s100 =o<ZngO5^;S[h9:LAMhg00
+I3Il:`KzdT_OZN3jNFc;<T1
+R3
+!s105 oled_ssd1306_v_unit
+S1
+R0
+Z11 w1792315346
+8D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/oled_ssd1306.v
+FD:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/oled_ssd1306.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 0
+R7
+R8
+vone_euro_filter_signed
+R1
+R2
+!i10b 1
+!s100 66U[o1ko<<X6jS3WT2L4]0
+IHQEzF3H_[bhoiF[@6hz=l0
+R3
+!s105 one_euro_filter_signed_v_unit
+S1
+R0
+w1792760739
+8D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/one_euro_filter_signed.v
+FD:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/one_euro_filter_signed.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 0
+R7
+R8
+vpendulum_controller
+R1
+R2
+!i10b 1
+!s100 dV9[KY;8R7ZRlkTYh[9IY3
+IL[;koY`HG3f?YY2^@EaC^0
+R3
+!s105 pendulum_controller_v_unit
+S1
+R0
+Z12 w1793148146
+8D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/pendulum_controller.v
+FD:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/pendulum_controller.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 0
+R7
+R8
+vpendulum_pd
+R1
+R2
+!i10b 1
+!s100 V47W4`::YcTE>EcNPgkH>3
+IYFRVc1ahQOFZdfQ0Z2f_I0
+R3
+!s105 pendulum_pd_v_unit
+S1
+R0
+R11
+8D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/pendulum_pd.v
+FD:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/pendulum_pd.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 0
+R7
+R8
+vposition_trajectory
+R1
+R2
+!i10b 1
+!s100 UhJEIM3fdf2oEjIIFg51:3
+IN5Lcb[R1HLhjZHkj`P1U72
+R3
+!s105 position_trajectory_v_unit
+S1
+R0
+w1793373605
+8D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/position_trajectory.v
+FD:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/position_trajectory.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 0
+R7
+R8
+vquadrature_encoder
+R1
+R2
+!i10b 1
+!s100 7oY6m14Ao9YdD7V@Zfj<E3
+ION^1UNzNje@4>Z?Bo=G`U1
+R3
+!s105 quadrature_encoder_v_unit
+S1
+R0
+R9
+8D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/quadrature_encoder.v
+FD:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/quadrature_encoder.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 0
+R7
+R8
+vtb_sine_trajectory
+R1
+R2
+!i10b 1
+!s100 EY0Hh]P=U<ojXbROJ]l3d1
+IIL82Ue9@nGI58mOJC2]I71
+R3
+!s105 tb_sine_trajectory_sv_unit
+S1
+R0
+w1793280434
+8D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/tests/tb_sine_trajectory.sv
+FD:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/tests/tb_sine_trajectory.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 0
+R7
+R8
+vuart_telemetry_tx
+R1
+R2
+!i10b 1
+!s100 E?n5J]o:Tmoin3DF=5PWU2
+I;`eaO14U@[KOm:dOi2XlS1
+R3
+!s105 uart_telemetry_tx_v_unit
+S1
+R0
+R12
+8D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/uart_telemetry_tx.v
+FD:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031_full/src/uart_telemetry_tx.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 0
+R7
+R8

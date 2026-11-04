@@ -1,0 +1,67 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Gowin/ACG525_Pendulum_Control
+T_opt
+!s110 1793197990
+VkJd_Ccd<;oDH9?ZzmCXPF0
+04 20 4 work tb_autoswing_handoff fast 0
+=1-b025aa695095-6ae207a6-11b-2ce8
+o-quiet -auto_acc_if_foreign -work work_autoswing_handoff +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6d;65
+vpendulum_controller
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z3 !s110 1793197989
+!i10b 1
+!s100 >12k4J@33z@RHI[G=`RoB2
+I^=I1cg97l9CX4on;me[QO0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 pendulum_controller_v_unit
+S1
+R0
+w1793197104
+8D:/Gowin/ACG525_Pendulum_Control/src/pendulum_controller.v
+FD:/Gowin/ACG525_Pendulum_Control/src/pendulum_controller.v
+L0 4
+Z5 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z6 !s108 1793197989.000000
+Z7 !s107 D:/Gowin/ACG525_Pendulum_Control/tests/tb_autoswing_handoff.sv|D:/Gowin/ACG525_Pendulum_Control/src/pendulum_controller.v|
+Z8 !s90 -modelsimini|D:/Gowin/ACG525_Pendulum_Control/modelsim.ini|-work|work_autoswing_handoff|-sv|D:/Gowin/ACG525_Pendulum_Control/src/pendulum_controller.v|D:/Gowin/ACG525_Pendulum_Control/tests/tb_autoswing_handoff.sv|
+!i113 0
+Z9 o-work work_autoswing_handoff -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb_autoswing_handoff
+R2
+R3
+!i10b 1
+!s100 eJM2;W<89:^lnkH_=8i[]3
+Il]K]]U1PP8OZD`lTLjoCc0
+R4
+!s105 tb_autoswing_handoff_sv_unit
+S1
+R0
+w1793197797
+8D:/Gowin/ACG525_Pendulum_Control/tests/tb_autoswing_handoff.sv
+FD:/Gowin/ACG525_Pendulum_Control/tests/tb_autoswing_handoff.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

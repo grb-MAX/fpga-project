@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031
+vposition_trajectory
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1793418127
+!i10b 1
+!s100 UhJEIM3fdf2oEjIIFg51:3
+ILij[3[?QhhIZPSzF?@g;^1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 position_trajectory_v_unit
+S1
+R0
+w1793373605
+8D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031/src/position_trajectory.v
+FD:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031/src/position_trajectory.v
+L0 4
+Z4 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z5 !s108 1793418126.000000
+!s107 D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031/tests/tb_sine_trajectory.sv|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031/src/position_trajectory.v|
+Z6 !s90 -modelsimini|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031/modelsim.ini|-sv|-work|work_sine_trajectory|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031/src/position_trajectory.v|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031/tests/tb_sine_trajectory.sv|
+!i113 0
+Z7 o-sv -work work_sine_trajectory -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0
+vtb_sine_trajectory
+R1
+R2
+!i10b 1
+!s100 EY0Hh]P=U<ojXbROJ]l3d1
+ICzHMh`4BH48^DW1h^kg0Y0
+R3
+!s105 tb_sine_trajectory_sv_unit
+S1
+R0
+w1793280434
+8D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031/tests/tb_sine_trajectory.sv
+FD:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031/tests/tb_sine_trajectory.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+Z9 !s107 D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031/tests/tb_sine_trajectory.sv|D:/Gowin/ACG525_Pendulum_Control/tests/work_sine_restore_20261031/src/position_trajectory.v|
+R6
+!i113 0
+R7
+R8
